@@ -1,5 +1,5 @@
 import { useLocation } from 'react-router-dom'
-import logo from '../../../images/carvalho (1).svg'
+import logo from '../../../images/logo1.svg'
 
 import { FaBars } from 'react-icons/fa'
 import {

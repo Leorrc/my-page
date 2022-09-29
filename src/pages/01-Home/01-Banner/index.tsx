@@ -1,19 +1,19 @@
 import img from '../../../images/1.png'
-import { Tecs } from './tecs'
 
-import { ContainerSection, Container, Line } from './styles'
+import { ContainerSection, Container, Text, Line, Img } from './styles'
 
 export function Banner() {
   return (
     <>
       <ContainerSection>
         <Container>
-          <img src={img} />
-          <span>Oi, eu sou</span>
-          <h1>Leonardo Carvalho</h1>
-          <p>Desenvolvedor Front-End</p>
-          <Tecs />
-          <Line />
+          <Img src={img} />
+          <Text>
+            <span>Oi, eu sou</span>
+            <h1>Leonardo Carvalho</h1>
+            <strong>Desenvolvedor Front-End</strong>
+            <Line />
+          </Text>
         </Container>
       </ContainerSection>
     </>

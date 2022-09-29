@@ -6,7 +6,7 @@ export const ContainerSection = styled.section`
   background: var(--header-color);
 `;
 
-export const ContainerMaster = styled.div`
+export const Container = styled.div`
   padding: 5rem;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -27,25 +27,3 @@ export const ContainerMaster = styled.div`
 }
 `;
 
-export const Container = styled.div`
-  justify-content: space-evenly;
-  flex-direction: column;
-  display: flex;
-
-`;
-
-export const Text = styled.div`
-  gap: 2rem;
-  align-items: center;
-  flex-direction: column;
-  display: flex;
-  margin-bottom: 2.5rem;
-  margin-top: 2.5rem;
-
-  p {
-  color: #FFF;
-  line-height: 1.75rem;
-  text-align: justify;
-  max-width: 32rem;
-}
-`;

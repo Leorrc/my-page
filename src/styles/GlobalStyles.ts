@@ -49,6 +49,7 @@ body {
   
   /* paleta de cores roxo */
   --gengar: #5D5984;
+  --amarelo: #dfa500;
 
   --header-color: #272638;
 
@@ -77,24 +78,17 @@ body {
 
   /* Fonts */
 --font-display: 800 ${pixelToRem(62)}/${pixelToRem(96)} "Poppins", sans-serif;
---font-heading-1: 700 ${pixelToRem(36)}/${pixelToRem(
-  48
-)} "Poppins", sans-serif;
-    --font-heading-2: 500 ${pixelToRem(24)}/${pixelToRem(
-  32
-)} "Poppins", sans-serif;
-    --font-heading-3: 400 ${pixelToRem(20)}/${pixelToRem(
-  24
-)} "Poppins", sans-serif;
---font-mobile-heading-1: 800 ${pixelToRem(36)}/${pixelToRem(
-  50
-)} "Poppins", sans-serif;
---font-mobile-text-1: 500 ${pixelToRem(14)}/${pixelToRem(
-  24
-)} "Poppins", sans-serif;
+--font-heading-1: 700 ${pixelToRem(34)}/${pixelToRem(46)} "Poppins", sans-serif;
+--font-heading-2: 500 ${pixelToRem(24)}/${pixelToRem(32)} "Poppins", sans-serif;
+--font-heading-3: 400 ${pixelToRem(20)}/${pixelToRem(24)} "Poppins", sans-serif;
+
+--font-mobile-heading-1: 800 ${pixelToRem(36)}/${pixelToRem(50)} "Poppins"sans-serif;
+--font-mobile-text-1: 500 ${pixelToRem(14)}/${pixelToRem(24)} "Poppins", sans-serif;
+
 --text-4: 500 ${pixelToRem(18)}/${pixelToRem(32)} "Poppins", sans-serif;
---text-3: 500 ${pixelToRem(18)}/${pixelToRem(24)} "Poppins", sans-serif;
+--text-3: 500 ${pixelToRem(18)}/${pixelToRem(28)} "Poppins", sans-serif;
 --text-2: 500 ${pixelToRem(14)}/${pixelToRem(20)} "Poppins", sans-serif;
 --text-1: 400 ${pixelToRem(16)}/${pixelToRem(24)} "Poppins", sans-serif;
 --text-0: 400 ${pixelToRem(14)}/${pixelToRem(24)} "Poppins", sans-serif;
-  }`;
+}`;
+
