@@ -31,7 +31,6 @@ export const Container = styled.div`
   justify-content: space-evenly;
   flex-direction: column;
   display: flex;
-
 `;
 
 export const Text = styled.div`

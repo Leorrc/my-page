@@ -5,7 +5,7 @@ import { GlobalStyles } from '../../styles/GlobalStyles'
 import { Banner } from './01-Banner'
 import { About } from './02-About'
 import { Skills } from './03-Skills'
-import { Contact } from './04-Contact'
+import { Projects } from './04-Projects'
 
 export function Home() {
   return (
@@ -15,7 +15,8 @@ export function Home() {
       <Divider3 />
       <Skills />
       <Divider3 />
-      <Contact />
+      <Projects />
+      <Divider3 />
     </>
   )
 }

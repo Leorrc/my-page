@@ -55,11 +55,10 @@ strong {
 `;
 
 export const Line = styled.div`
-
   width: 100%;
   max-width: 10rem;
   height: 0.25rem;
   border-radius: 1rem;
   background-color: #fff;
-  margin: 2rem auto;
+  margin: 1rem auto;
 `;

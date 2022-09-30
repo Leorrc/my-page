@@ -1,19 +1,23 @@
 import styled from "styled-components";
 
 export const ContainerSection = styled.section`
-  min-height: 100vh;
   display: flex;
+  min-height: 100vh; 
   background: var(--header-color);
+  padding: var(--header-height) 0;
+
+  @media (min-width: 992px) {
+    padding: calc(5rem + var(--header-height)) 0;
+  }
 `;
 
-export const Container = styled.div`
-  padding-top: 5rem;
-  padding-bottom: 1rem;
+export const ContainerMaster = styled.div`
   padding-left: 1.25rem;
   padding-right: 1.25rem;
   flex-direction: column;
   width: 100%;
   display: flex;
+  gap: 2.5rem;
 
   h2 {
     color: #FFF;
@@ -26,18 +30,9 @@ export const Container = styled.div`
     line-height: 2.25rem;
     font-weight: 700;
 }
-`;
 
-export const Content = styled.div`
-  gap: 2rem;
-  align-items: center;
-  flex-direction: column;
-  display: flex;
-  margin-bottom: 2.5rem;
-  margin-top: 2.5rem;
-
-  p {
-  color: #FFF;
+p {
+  color: var(--text-color-light);
   line-height: 1.75rem;
   text-align: justify;
   max-width: 32rem;
