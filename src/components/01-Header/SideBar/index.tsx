@@ -30,27 +30,15 @@ export function SideBar({ isOpen, toggle }: Props) {
             <SidebarRoute onClick={toggle} to="/">
               Home
             </SidebarRoute>
-            <SidebarRoute onClick={toggle} to="/events">
-              Eventos
+            <SidebarRoute onClick={toggle} to="/">
+              PORTFÓLIO
             </SidebarRoute>
-            <SidebarRoute onClick={toggle} to="/affiliates">
-              Encontre um terapeuta
+            <SidebarRoute onClick={toggle} to="/">
+              SOBRE MIM
             </SidebarRoute>
-            <SidebarRoute onClick={toggle} to="/parceiros">
-              Parceiros da ATC
+            <SidebarRoute onClick={toggle} to="/">
+              CONTATO
             </SidebarRoute>
-            <SidebarRoute onClick={toggle} to="/leitura">
-              Materiais
-            </SidebarRoute>
-            <SidebarScroll>
-              <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLScKF3mjS4fIwIo2CEBjssFwoNfBSRY647jYoF-xoAg5FK3n0w/viewform"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Associar-se
-              </a>
-            </SidebarScroll>
           </SidebarMenu>
         </SidebarWrapper>
       </SidebarContainer>

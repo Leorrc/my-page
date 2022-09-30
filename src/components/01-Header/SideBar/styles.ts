@@ -25,7 +25,7 @@ export const SidebarContainer = styled.aside<Props>`
 `;
 
 export const CloseIcon = styled(FaTimes)`
-  color: var(--att-color);
+  color: var(--roxo-2);
 `;
 
 export const Icon = styled.div`
@@ -61,10 +61,13 @@ export const SidebarRoute = styled(LinkR)`
   transition: color 0.2s ease-in-out;
   cursor: pointer;
 
+  &.active {
+    border-bottom: 3px solid  ;
+  }
   &:hover {
-    color: var(--att-color);
-    transition: color 0.2s ease-in-out;
-}
+    color: var(--roxo-3);
+    transition: 0.2s ease-in-out;
+  }
 
 `;
 

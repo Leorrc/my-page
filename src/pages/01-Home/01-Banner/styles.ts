@@ -5,6 +5,7 @@ export const ContainerSection = styled.section`
   padding: calc(8rem + var(--header-height)) 0;
   min-height: 100vh;
   background: linear-gradient(to right, #8e2de2, #4a00e0); 
+  margin: auto;
 
   @media (min-width: 992px) {
     padding: calc(5rem + var(--header-height)) 0;
@@ -13,7 +14,7 @@ export const ContainerSection = styled.section`
 
 export const Container = styled.div`
   display: grid;
-  margin: 0 auto;
+  margin: auto;
 `;
 
 export const Img = styled.img`
