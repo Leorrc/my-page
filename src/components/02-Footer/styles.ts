@@ -81,6 +81,42 @@ export const Social = styled.div `
   margin-top: 1rem;
 `;
 
+export const DivLink = styled.div `
+  svg {
+    &:hover {
+      color: #0e76a8;
+      transition: color .2s;
+    }
+  }
+`;
+
+export const DivGit = styled.div `
+  svg {
+    &:hover {
+      color: #333;
+      transition: color .2s;
+    }
+  }
+`;
+
+export const DivInsta = styled.div `
+  svg {
+    &:hover {
+      color: #E1306C;
+      transition: color .2s;
+    }
+  }
+`;
+
+export const DivTv = styled.div `
+  svg {
+    &:hover {
+      color: #6441A4;
+      transition: color .2s;
+    }
+  }
+`;
+
 export const IFooter = styled.div `
   width: 100%;
   padding: 1.25rem;

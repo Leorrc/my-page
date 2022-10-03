@@ -53,7 +53,7 @@ export const DivButtons = styled.div`
   padding: 1rem;
 `;
 
-export const Buttons = styled.button`
+export const Button = styled.div`
   border: none;
   border-radius: ${pixelToRem(9)};
   transition: background 0.3s;
@@ -61,17 +61,19 @@ export const Buttons = styled.button`
   align-items: center;
   padding: 0.5rem 1rem;
   background: var(--header-color);
-  gap: 0.25rem;
+  gap: 0.5rem;
 
   a {
+    display: flex;
+    align-items: center;
     color: white;
+    gap: 0.25rem;
     font: var(--text-01);
   }
 
   svg {
-  font-size: 1.5rem;
-
-  color: var(--text-color-light);
+    font-size: 1.5rem;
+    color: var(--text-color-light);
   }
   
   &:hover {

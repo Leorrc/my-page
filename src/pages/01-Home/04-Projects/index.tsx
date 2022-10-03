@@ -20,6 +20,7 @@ export function Projects() {
                 imgUrl={content.imgUrl}
                 name={content.name}
                 description={content.description}
+                socialList={content.socialList}
               />
             ))}
           </Cards>

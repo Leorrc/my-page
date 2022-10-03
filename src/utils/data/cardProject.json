@@ -2,11 +2,31 @@
   {
     "imgUrl": "projects/1.png",
     "name": "Site Institucional",
-    "description": "Uma plataforma online criada para a troca de conhecimento entre Psicólogos. Construída utilizando React.js, TypeScript e Styled-Components"
+    "description": "Uma plataforma online criada para a troca de conhecimento entre Psicólogos. Construída utilizando React.js, TypeScript e Styled-Components",
+    "socialList": [
+      {
+        "network": "site",
+        "link": "https://www.atc-sc.com/"
+      },
+      {
+        "network": "git",
+        "link": "https://github.com/Leorrc/site-atc"
+      }
+    ]
   },
   {
     "imgUrl": "projects/22maria.png",
     "name": "Site Psicóloga",
-    "description": "Um site pessoal para divulgação de seu trabalho pessoal. Criada utilizando HTML, CSS e JavaScript"
+    "description": "Um site pessoal para divulgação de seu trabalho pessoal. Criada utilizando HTML, CSS e JavaScript",
+    "socialList": [
+      {
+        "network": "site",
+        "link": "https://psicologamariaveronica.com.br/"
+      },
+      {
+        "network": "git",
+        "link": "https://github.com/Leorrc/SiteMaria"
+      }
+    ]
   }
 ]

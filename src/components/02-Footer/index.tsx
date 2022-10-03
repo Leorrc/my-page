@@ -15,7 +15,11 @@ import {
   IFooter,
   Socials,
   Social,
-  Email
+  Email,
+  DivLink,
+  DivInsta,
+  DivTv,
+  DivGit
 } from './styles'
 import { Line } from '../../pages/01-Home/01-Banner/styles'
 
@@ -54,26 +58,26 @@ export function Contact() {
             <h3>Redes Sociais</h3>
             <Line />
             <Social>
-              <div>
+              <DivLink>
                 <a href="">
                   <FaLinkedin />
                 </a>
-              </div>
-              <div>
+              </DivLink>
+              <DivGit>
                 <a href="">
                   <FaGithub />
                 </a>
-              </div>
-              <div>
+              </DivGit>
+              <DivInsta>
                 <a href="">
                   <FaInstagram />
                 </a>
-              </div>
-              <div>
+              </DivInsta>
+              <DivTv>
                 <a href="">
                   <FaTwitch />
                 </a>
-              </div>
+              </DivTv>
             </Social>
           </Socials>
         </Container>
