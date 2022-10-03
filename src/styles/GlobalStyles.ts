@@ -90,5 +90,6 @@ body {
 --text-2: 500 ${pixelToRem(14)}/${pixelToRem(20)} "Poppins", sans-serif;
 --text-1: 400 ${pixelToRem(16)}/${pixelToRem(24)} "Poppins", sans-serif;
 --text-0: 400 ${pixelToRem(14)}/${pixelToRem(24)} "Poppins", sans-serif;
+--text-01: 400 ${pixelToRem(12)}/${pixelToRem(20)} "Poppins", sans-serif;
 }`;
 

@@ -1,0 +1,12 @@
+[
+  {
+    "imgUrl": "projects/1.png",
+    "name": "Site Institucional",
+    "description": "Uma plataforma online criada para a troca de conhecimento entre Psicólogos. Construída utilizando React.js, TypeScript e Styled-Components"
+  },
+  {
+    "imgUrl": "projects/22maria.png",
+    "name": "Site Psicóloga",
+    "description": "Um site pessoal para divulgação de seu trabalho pessoal. Criada utilizando HTML, CSS e JavaScript"
+  }
+]
