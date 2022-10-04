@@ -9,8 +9,11 @@ export const Divider = styled.div`
   margin-bottom: 2.5rem;
   width: 100%;
 
+  max-width: 768px;
+
   strong {
     color: #FFF;
+    text-align: center;
   }
 `;
 
@@ -21,5 +24,11 @@ export const Iedit = styled.div`
   justify-content: center;
   gap: 0.25rem;
   padding: 1rem;
+
+  img {
+    width: 4rem;
+    height: 4rem;
+  }
+  
 `;
 

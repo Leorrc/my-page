@@ -69,14 +69,18 @@ body {
   --body-font: 'DM Sans' , sans-serif;
   --font-origin: "Montserrat" 700;
 
-  @media (min-width: 992px) {
-  :root {
-    --title-font-size: 2.25rem;
-    --subtitle-font-size: 1.125rem;
-  }
-}
+
 
   /* Fonts */
+--font-header-1: 700 ${pixelToRem(34)}/${pixelToRem(46)} "Poppins", sans-serif;
+--font-header-2: 700 ${pixelToRem(48)}/${pixelToRem(48)} "Poppins", sans-serif;
+--font-header-3: 700 ${pixelToRem(60)}/${pixelToRem(60)} "Poppins", sans-serif;
+
+--font-sub-header-1: 700 ${pixelToRem(30)}/${pixelToRem(36)} "Poppins", sans-serif;
+--font-sub-header-2: 700 ${pixelToRem(36)}/${pixelToRem(40)} "Poppins", sans-serif;
+--font-sub-header-3: 700 ${pixelToRem(48)}/${pixelToRem(48)} "Poppins", sans-serif;
+
+
 --font-display: 800 ${pixelToRem(62)}/${pixelToRem(96)} "Poppins", sans-serif;
 --font-heading-1: 700 ${pixelToRem(34)}/${pixelToRem(46)} "Poppins", sans-serif;
 --font-heading-2: 500 ${pixelToRem(24)}/${pixelToRem(32)} "Poppins", sans-serif;
@@ -92,4 +96,3 @@ body {
 --text-0: 400 ${pixelToRem(14)}/${pixelToRem(24)} "Poppins", sans-serif;
 --text-01: 400 ${pixelToRem(12)}/${pixelToRem(20)} "Poppins", sans-serif;
 }`;
-
