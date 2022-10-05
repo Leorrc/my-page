@@ -40,11 +40,16 @@ export const ContainerMaster = styled.div`
 `;
 
 export const Container = styled.div`
-  justify-content: space-evenly;
-  flex-direction: column;
   display: flex;
-  margin: 0 auto;
-  max-width: 570px;
+  flex-direction: column;
+  margin: auto;
+
+  @media ${device.laptop} {
+    gap: 5rem;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+  }
 `;
 
 export const Text = styled.div`

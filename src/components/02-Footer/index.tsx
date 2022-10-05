@@ -58,25 +58,17 @@ export function Contact() {
             <h3>Redes Sociais</h3>
             <Line />
             <Social>
-              <DivLink>
-                <a href="">
-                  <FaLinkedin />
-                </a>
+              <DivLink href="">
+                <FaLinkedin />
               </DivLink>
-              <DivGit>
-                <a href="">
-                  <FaGithub />
-                </a>
+              <DivGit href="">
+                <FaGithub />
               </DivGit>
-              <DivInsta>
-                <a href="">
-                  <FaInstagram />
-                </a>
+              <DivInsta href="">
+                <FaInstagram />
               </DivInsta>
-              <DivTv>
-                <a href="">
-                  <FaTwitch />
-                </a>
+              <DivTv href="">
+                <FaTwitch />
               </DivTv>
             </Social>
           </Socials>

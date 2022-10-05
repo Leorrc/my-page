@@ -3,27 +3,15 @@ import pixelToRem from "../../../../utils/pxToRem";
 
 export const CardDefault = styled.div`
   max-width: 28rem;
+  max-height: 28rem;
+  min-width: ${pixelToRem(276)};
   box-shadow: 0px 0px 12px rgb(0 0 0 / 8%);
   border-bottom: 0.25rem solid var(--att-color);
   border-radius: 0.45rem 0.45rem 0.45rem 0.45rem;
   background: var(--roxo-2);
-  margin: auto;
-  max-width: 28rem;
-
-  h3 {
-    text-align: center;
-    color: #FFF;
-    
-  }
-  h4 {
-    margin-top: .5rem;
-    text-align: center;
-    color: #FFF;
-  }
-
 `;
 
-export const Img = styled.div`
+export const Img = styled.img`
   background-size: cover;
   max-width: 100%;
   height: auto;
@@ -32,36 +20,40 @@ export const Img = styled.div`
 
 export const MemberInfos = styled.div`
   padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
   font: var(--title-font);
 
-  h4 {
-  font-weight: 700;
-  margin-bottom: 0.313rem;
-  font-size: 1.25rem;
+  h3 {
+  font: var(--font-sub-header-1);
+  text-align: center;
   color: var(--amarelo);
 }
   p {
   margin: 0.625rem 0 0 0;
   font-size: 0.938rem;
   font-weight: 500;
+  padding-bottom: rem;
 } 
 `;
 
 export const DivButtons = styled.div`
   display: flex;
   justify-content: space-between;
-  padding: 1rem;
+  gap: 1rem;
 `;
 
 export const Button = styled.div`
+  width: ${pixelToRem(150)};
+  height: ${pixelToRem(40)};
   border: none;
   border-radius: ${pixelToRem(9)};
   transition: background 0.3s;
-  display: inline-flex;
-  align-items: center;
-  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: center;
   background: var(--header-color);
-  gap: 0.5rem;
+  
 
   a {
     display: flex;
@@ -81,4 +73,3 @@ export const Button = styled.div`
     background: var(--color2);
   }
 `;
-

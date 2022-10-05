@@ -78,7 +78,7 @@ body {
 
 --font-sub-header-1: 700 ${pixelToRem(30)}/${pixelToRem(36)} "Poppins", sans-serif;
 --font-sub-header-2: 700 ${pixelToRem(36)}/${pixelToRem(40)} "Poppins", sans-serif;
---font-sub-header-3: 700 ${pixelToRem(48)}/${pixelToRem(48)} "Poppins", sans-serif;
+--font-sub-header-3: 700 ${pixelToRem(48)}/${pixelToRem(48)} "DM Sans", sans-serif;
 
 
 --font-display: 800 ${pixelToRem(62)}/${pixelToRem(96)} "Poppins", sans-serif;

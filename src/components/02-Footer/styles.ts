@@ -1,4 +1,5 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
+import pixelToRem from "../../utils/pxToRem";
 
 export const ContainerSection = styled.section`
   padding: var(--header-height) 0;
@@ -8,6 +9,7 @@ export const ContainerSection = styled.section`
 export const Container = styled.div`
   display: grid;
   gap: 2rem;
+  min-width: ${pixelToRem(276)};
 `;
 
 export const Zap = styled.div`
@@ -67,30 +69,34 @@ export const Socials = styled.div`
     line-height: 2.25rem;
     font-weight: 700;
 }
-
-svg {
-  font-size: 3rem;
-  margin-right: 0.625rem;
-  color: var(--text-color-light);
-  }
 `;
 
 export const Social = styled.div `
   display: flex;
-  justify-content: space-around;
-  margin-top: 1rem;
+  column-gap: 3rem;
+  max-width: 375px;
+  margin: 0 auto;
+
 `;
 
-export const DivLink = styled.div `
-  svg {
+const iconCSS = css`
+  font-size: 3rem;
+  color: var(--text-color-light);
+  flex-shrink: 0;
+`;
+
+export const DivLink = styled.a`
+  ${iconCSS}
+
     &:hover {
       color: #0e76a8;
       transition: color .2s;
     }
-  }
+  
 `;
 
-export const DivGit = styled.div `
+export const DivGit = styled.a`
+  ${iconCSS}
   svg {
     &:hover {
       color: #333;
@@ -99,7 +105,8 @@ export const DivGit = styled.div `
   }
 `;
 
-export const DivInsta = styled.div `
+export const DivInsta = styled.a `
+  ${iconCSS}
   svg {
     &:hover {
       color: #E1306C;
@@ -108,7 +115,8 @@ export const DivInsta = styled.div `
   }
 `;
 
-export const DivTv = styled.div `
+export const DivTv = styled.a `
+  ${iconCSS}
   svg {
     &:hover {
       color: #6441A4;

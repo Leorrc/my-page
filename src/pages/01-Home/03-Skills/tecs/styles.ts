@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { device } from "../../../../utils/responsive";
 
 export const Divider = styled.div`
   display: grid;
@@ -9,11 +10,22 @@ export const Divider = styled.div`
   margin-bottom: 2.5rem;
   width: 100%;
 
-  max-width: 768px;
+  max-width: 1220px;
 
   strong {
     color: #FFF;
     text-align: center;
+  }
+
+  @media ${device.mobileL}{
+    grid-template-columns: repeat(4,minmax(0,1fr));
+  }
+  @media ${device.tablet}{
+    grid-template-columns: repeat(6,minmax(0,1fr));
+  }
+  @media ${device.laptop}{
+    gap: 1rem;
+    grid-template-columns: repeat(8,minmax(0,1fr));
   }
 `;
 

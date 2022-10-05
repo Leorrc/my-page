@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { device } from "../../../utils/responsive";
 
 export const ContainerSection = styled.section`
   min-height: 100vh;
@@ -26,6 +27,18 @@ export const Container = styled.div`
     line-height: 2.25rem;
     font-weight: 700;
 }
+
+@media ${device.mobileL} {
+    h2 {
+      font: var(--font-sub-header-2);
+    }
+  }
+
+  @media ${device.tablet} {
+    h2 {
+      font: var(--font-sub-header-3);
+    }
+  }
 `;
 
 export const Content = styled.div`
@@ -40,6 +53,6 @@ export const Content = styled.div`
   color: #FFF;
   line-height: 1.75rem;
   text-align: justify;
-  max-width: 32rem;
+  max-width: 768px;
 }
 `;

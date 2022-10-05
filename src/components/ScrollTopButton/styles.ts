@@ -12,21 +12,21 @@ export const Container = styled.div`
 }
 
 .icon-style{
-  background-color: var(--att-color);
-  border: 2px solid #fff;
+  background-color: var(--roxo-1);
+  border: 2px solid var(--roxo-1);
   border-radius: 50%;
   height: 50px;
   width: 50px;
-  color: #fff;
+  color: var(--roxo-2);
   cursor: pointer;
   transition: all .5s ease-in-out;
 }
 
 .icon-style:hover{
   animation: none;
-  background: #fff;
-  color: var(--att-color);
-  border: 2px solid var(--att-color);
+  background: var(--roxo-3);
+  color: var(--roxo-1);
+  border: 2px solid var(--roxo-2);
 }
 
 `;

@@ -42,23 +42,22 @@ export function CardProjects({
 }: MemberProps) {
   return (
     <CardDefault>
-      <Img>
-        <img src={imgUrl} />
-      </Img>
-      <MemberInfos>
-        <h4>{name}</h4>
-        <p>{description}</p>
-      </MemberInfos>
+      <Img src={imgUrl} />
 
-      <DivButtons>
-        {socialList.map(social => (
-          <Button>
-            <a href={social.link} target="_blank">
-              {renderSwitch(social.network)}
-            </a>
-          </Button>
-        ))}
-      </DivButtons>
+      <MemberInfos>
+        <h3>{name}</h3>
+        <p>{description}</p>
+
+        <DivButtons>
+          {socialList.map(social => (
+            <Button>
+              <a href={social.link} target="_blank">
+                {renderSwitch(social.network)}
+              </a>
+            </Button>
+          ))}
+        </DivButtons>
+      </MemberInfos>
     </CardDefault>
   )
 }
