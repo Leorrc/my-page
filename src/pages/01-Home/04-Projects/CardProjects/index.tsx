@@ -1,4 +1,4 @@
-import { CardDefault, MemberInfos, Img, DivButtons, Button } from './styles'
+import { Card, Infos, Img, DivButtons, AButton, DivImg } from './styles'
 
 import { MdAdsClick } from 'react-icons/md'
 import { FaGithub } from 'react-icons/fa'
@@ -41,23 +41,25 @@ export function CardProjects({
   socialList
 }: MemberProps) {
   return (
-    <CardDefault>
-      <Img src={imgUrl} />
+    <Card>
+      <DivImg>
+        <Img>
+          <img src={imgUrl} />
+        </Img>
+      </DivImg>
 
-      <MemberInfos>
+      <Infos>
         <h3>{name}</h3>
         <p>{description}</p>
 
         <DivButtons>
           {socialList.map(social => (
-            <Button>
-              <a href={social.link} target="_blank">
-                {renderSwitch(social.network)}
-              </a>
-            </Button>
+            <AButton href={social.link} target="_blank">
+              {renderSwitch(social.network)}
+            </AButton>
           ))}
         </DivButtons>
-      </MemberInfos>
-    </CardDefault>
+      </Infos>
+    </Card>
   )
 }

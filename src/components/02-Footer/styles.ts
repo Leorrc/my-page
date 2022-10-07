@@ -7,20 +7,18 @@ export const ContainerSection = styled.section`
 `;
 
 export const Container = styled.div`
-  display: grid;
-  gap: 2rem;
-  min-width: ${pixelToRem(276)};
+  display: flex;
+  min-width: 32rem;
+  flex-direction: column;
 `;
 
 export const Zap = styled.div`
-  display: grid;
-  gap: 2rem;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  display: flex;
+  flex: 1 1 0%;
 
   h2 {
-    color: var(--text-color-light);
     text-align: center;
+    color: var(--text-color-light);
     width: 100%;
     height: -webkit-fit-content;
     height: -moz-fit-content;
