@@ -1,9 +1,8 @@
 import styled from "styled-components";
-import { Link as LinkR } from 'react-router-dom';
-import { Link as LinkS } from 'react-scroll';
-
 import pixelToRem from "../../../utils/pxToRem";
 import { device } from "../../../utils/responsive";
+import { Link as LinkS} from 'react-scroll';
+import { Link as LinkR } from 'react-router-dom'
 
 export const ContainerHeader = styled.header`
   position: fixed;
@@ -94,7 +93,7 @@ export const Item = styled.li`
   text-align: center;
 `;
 
-export const ItemLink = styled(LinkR)`
+export const ItemLink = styled(LinkS)`
   color: var(--text-color);
   text-decoration: none;
   height: 100%;
@@ -157,7 +156,7 @@ a:hover:after{
 `;
 
 export const ItemScroll = styled.div`
-  color: var(--text-color);
+  color: var(--text-color-light);
   text-decoration: none;
   height: 100%;
   cursor: pointer;

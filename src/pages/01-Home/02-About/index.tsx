@@ -5,16 +5,16 @@ export function About() {
   return (
     <>
       <ContainerSection>
-        <ContainerMaster>
+        <ContainerMaster id="IdAbout">
           <h2>Sobre mim</h2>
           <Container>
             <Text>
               <p>
                 Meu nome é Leonardo e eu sou alguém fascinado por tecnologia,
-                sendo formado em Ciência da Computação.
+                sendo estudante em Ciência da Computação.
               </p>
               <p>
-                Após a conclusão da graduação, tive experiências interessantes
+                Após uma pausa na graduação, tive experiências interessantes
                 atuando em outras áreas além da TI, no entanto, como eu sempre
                 soube, meu lugar era, realmente, na programação.
               </p>

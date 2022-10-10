@@ -39,7 +39,7 @@ export const Icon = styled.div`
 `;
 
 export const SidebarWrapper = styled.div`
-  color: var(--att-color);
+  
 `;
 
 export const SidebarMenu = styled.ul`
@@ -68,6 +68,28 @@ export const SidebarRoute = styled(LinkR)`
     color: var(--roxo-3);
     transition: 0.2s ease-in-out;
   }
+
+  position: relative;
+
+:hover {
+color: var(--base-color);
+}
+::after {
+content: "";  
+width: 0%;
+height: 2px;
+background: var(--roxo-3);
+
+position: absolute;
+left: 0;
+bottom: -1.5rem;
+
+transition: width 0.2s;
+}
+
+:hover::after {
+width: 100%;
+}
 
 `;
 

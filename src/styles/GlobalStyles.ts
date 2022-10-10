@@ -27,8 +27,12 @@ ul,li {
 
 body {
   font: 400 1rem var(--body-font);
-  color: var(--text-color);
-  background: var(--body-color);
+  color: var(--text-color-light);
+  background: var(--header-color);
+}
+
+svg {
+  color: #FFF;
 }
 
 
@@ -66,7 +70,7 @@ body {
   --subtitle-font-size: 1rem;
   
   --title-font: 'Poppins' , sans-serif;
-  --body-font: 'DM Sans' , sans-serif;
+  --body-font: 'Montserrat' , sans-serif;
   --font-origin: "Montserrat" 700;
 
 

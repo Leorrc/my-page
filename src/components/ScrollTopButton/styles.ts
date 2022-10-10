@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   .top-to-btm{
   position: relative;
+  transition: 0.3s;
 }
 .icon-position{
   position: fixed;

@@ -1,6 +1,4 @@
 import { useLocation } from 'react-router-dom'
-import logo from '../../../images/logo1.svg'
-
 import { FaBars } from 'react-icons/fa'
 import {
   ContainerHeader,
@@ -9,8 +7,11 @@ import {
   MobileIcon,
   Item,
   ItemLink,
-  LogoA
+  LogoA,
+  ItemScroll
 } from './styles'
+
+import logo from '../../../images/logo1.svg'
 
 type Props = {
   toggle1: () => void
@@ -29,16 +30,23 @@ export function NavBar({ toggle1 }: Props) {
           <MobileIcon onClick={toggle1}>
             <FaBars />
           </MobileIcon>
+
           <Menu>
-            <Item>
-              <ItemLink to="/">Portfolio</ItemLink>
-            </Item>
-            <Item>
-              <ItemLink to="/">Sobre mim</ItemLink>
-            </Item>
-            <Item>
-              <ItemLink to="/affiliates">Contato</ItemLink>
-            </Item>
+            <ItemLink to="IdProject">
+              <Item>
+                <ItemScroll>Portfolio</ItemScroll>
+              </Item>
+            </ItemLink>
+            <ItemLink to="IdAbout">
+              <Item>
+                <ItemScroll>Sobre mim</ItemScroll>
+              </Item>
+            </ItemLink>
+            <ItemLink to="IdContact">
+              <Item>
+                <ItemScroll>Contato</ItemScroll>
+              </Item>
+            </ItemLink>
           </Menu>
         </Nav>
       </ContainerHeader>
