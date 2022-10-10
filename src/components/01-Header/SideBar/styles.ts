@@ -49,7 +49,7 @@ export const SidebarMenu = styled.ul`
   text-align: center;
 `;
 
-export const SidebarRoute = styled(LinkR)`
+export const SidebarRoute = styled(LinkS)`
   font: 700 var(--title-font-size) var(--title-font);
   color: var(--title-color);
   -webkit-font-smoothing: auto;
