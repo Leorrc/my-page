@@ -71,24 +71,24 @@ export const SidebarRoute = styled(LinkS)`
 
   position: relative;
 
-:hover {
-color: var(--base-color);
+  :hover {
+  color: var(--base-color);
 }
-::after {
-content: "";  
-width: 0%;
-height: 2px;
-background: var(--roxo-3);
+  ::after {
+  content: "";  
+  width: 0%;
+  height: 2px;
+  background: var(--roxo-3);
 
-position: absolute;
-left: 0;
-bottom: -1.5rem;
+  position: absolute;
+  left: 0;
+  bottom: -1.5rem;
 
-transition: width 0.2s;
+  transition: width 0.2s;
 }
 
-:hover::after {
-width: 100%;
+  :hover::after {
+  width: 100%;
 }
 
 `;

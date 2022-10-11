@@ -5,7 +5,7 @@ import { ContainerSection, Container, Text, Line, Img } from './styles'
 export function Banner() {
   return (
     <>
-      <ContainerSection>
+      <ContainerSection id="hometop">
         <Container>
           <Img src={img} />
           <Text>

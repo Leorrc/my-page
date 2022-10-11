@@ -27,7 +27,7 @@ export function SideBar({ isOpen, toggle }: Props) {
         </Icon>
         <SidebarWrapper>
           <SidebarMenu>
-            <SidebarRoute onClick={toggle} to="/">
+            <SidebarRoute onClick={toggle} to="hometop">
               Home
             </SidebarRoute>
             <SidebarRoute onClick={toggle} to="IdProject">

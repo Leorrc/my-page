@@ -28,5 +28,16 @@
         "link": "https://github.com/Leorrc/SiteMaria"
       }
     ]
+  },
+  {
+    "imgUrl": "projects/leo.png",
+    "name": "Meu site portfólio",
+    "description": "Um site pessoal para divulgação do meu trabalho pessoal. Criada utilizando React.js, TypeScript e Styled-Components",
+    "socialList": [
+      {
+        "network": "site",
+        "link": "https://my-page-silk.vercel.app/"
+      }
+    ]
   }
 ]

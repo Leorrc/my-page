@@ -14,9 +14,9 @@ export function About() {
                 sendo estudante em Ciência da Computação.
               </p>
               <p>
-                Após uma pausa na graduação, tive experiências interessantes
-                atuando em outras áreas além da TI, no entanto, como eu sempre
-                soube, meu lugar era, realmente, na programação.
+                Após um período sabático da faculdade, tive experiências
+                interessantes atuando em outras áreas além da TI, no entanto,
+                como eu sempre soube, meu lugar era, realmente, na programação.
               </p>
               <p>
                 Assim, retornei de vez ao universo de tecnologia e, desde então,
