@@ -4,7 +4,7 @@ import { device } from "../../../utils/responsive";
 export const ContainerSection = styled.section`
   min-height: 100vh;
   display: flex;
-  background: var(--header-color);
+  background: var(--gengar);
 `;
 
 export const ContainerMaster = styled.div`

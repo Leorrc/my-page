@@ -11,7 +11,7 @@ export function Banner() {
           <Text>
             <span>Oi, eu sou</span>
             <h1>Leonardo Carvalho</h1>
-            <strong>Desenvolvedor Front-End</strong>
+            <strong>Desenvolvedor FULL-STACK</strong>
             <Line />
           </Text>
         </Container>

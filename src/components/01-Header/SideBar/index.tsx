@@ -2,7 +2,6 @@ import {
   CloseIcon,
   Icon,
   SidebarContainer,
-  SidebarScroll,
   SidebarMenu,
   SidebarRoute,
   SidebarWrapper
@@ -28,13 +27,16 @@ export function SideBar({ isOpen, toggle }: Props) {
         <SidebarWrapper>
           <SidebarMenu>
             <SidebarRoute onClick={toggle} to="hometop">
-              Home
+              HOME
             </SidebarRoute>
             <SidebarRoute onClick={toggle} to="IdProject">
               PORTFÓLIO
             </SidebarRoute>
             <SidebarRoute onClick={toggle} to="IdAbout">
               SOBRE MIM
+            </SidebarRoute>
+            <SidebarRoute onClick={toggle} to="IdSkill">
+              HABILIDADES
             </SidebarRoute>
             <SidebarRoute onClick={toggle} to="IdContact">
               CONTATO

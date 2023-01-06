@@ -8,7 +8,8 @@ export function Card() {
       <Img src={avatar} />
       <Name>
         <h3>Leonardo Carvalho</h3>
-        <h4>Desenvolvedor Front-End</h4>
+        <h4>Desenvolvedor </h4>
+        <h4>Full-Stack</h4>
       </Name>
     </CardDefault>
   )

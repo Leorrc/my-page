@@ -2,7 +2,7 @@ import styled from "styled-components";
 import pixelToRem from "../../../utils/pxToRem";
 import { device } from "../../../utils/responsive";
 import { Link as LinkS} from 'react-scroll';
-import { Link as LinkR } from 'react-router-dom'
+
 
 export const ContainerHeader = styled.header`
   position: fixed;
@@ -12,6 +12,7 @@ export const ContainerHeader = styled.header`
   background: var(--header-color);
   width: 100%;
   max-height: ${pixelToRem(72)};
+  border-bottom: 1px solid #e4e4e4;
 
   @media ${device.laptop} {
 
@@ -27,12 +28,12 @@ export const Nav = styled.nav`
   margin-left: auto;
   margin-right: auto;
   padding: 0 10px;
-
 `;
 
-export const LogoA = styled(LinkR)`
+export const LogoA = styled(LinkS)`
   width: auto;
   height: 72px;
+  cursor: pointer;
 
   img {
     width: auto;
@@ -98,14 +99,38 @@ export const ItemLink = styled(LinkS)`
   text-decoration: none;
   height: 100%;
   cursor: pointer;
+  position: relative;
+  transition: 0.1s;
 
   &.active {
     border-bottom: 3px solid  ;
   }
   &:hover {
     color: var(--roxo-3);
-    transition: 0.2s ease-in-out;
+    
   }
+
+  position: relative;
+
+  :hover {
+  color: var(--base-color);
+}
+  ::after {
+  content: "";  
+  width: 0%;
+  height: 2px;
+  background: var(--roxo-3);
+
+  position: absolute;
+  left: 0;
+  bottom: -0.5rem;
+
+  transition: width 0.2s;
+}
+
+  :hover::after {
+  width: 100%;
+}
 `;
 
 export const Wrapper = styled.div`

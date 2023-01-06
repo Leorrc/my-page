@@ -4,8 +4,12 @@ import { Tecs } from './tecs'
 export function Skills() {
   return (
     <>
-      <ContainerSection>
-        <Container>
+      <ContainerSection id="IdSkill">
+        <Container
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
           <h2>Minhas Habilidades</h2>
           <Content>
             <p>

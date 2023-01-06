@@ -44,7 +44,7 @@ export function CardProjects({
     <Card>
       <DivImg>
         <Img>
-          <img src={imgUrl} />
+          <img src={imgUrl} alt="mockup" />
         </Img>
       </DivImg>
 

@@ -3,7 +3,7 @@ import { device } from "../../../utils/responsive";
 
 export const ContainerSection = styled.section`
   min-height: 100vh; 
-  background: var(--header-color);
+  background: var(--roxo-1);
   /* padding: var(--header-height) 0;
 
   @media (min-width: 992px) {
@@ -44,6 +44,7 @@ export const DivText = styled.div `
   font-size: 1.875rem;
   line-height: 2.25rem;
   font-weight: 700;
+  font-family: var(--font-test);
 }
 
   p {

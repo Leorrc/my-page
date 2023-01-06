@@ -68,6 +68,7 @@ strong {
   }
     strong {
       font: var(--font-heading-2);
+      letter-spacing: 0.25rem;
     }
 };
   
@@ -77,7 +78,9 @@ strong {
       font: var(--font-header-3);
       }
 
-
+      strong {
+      letter-spacing: 0.25rem;
+    }
     }
 `;
 

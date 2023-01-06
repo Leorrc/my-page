@@ -13,12 +13,12 @@ export const Container = styled.div`
 }
 
 .icon-style{
-  background-color: var(--roxo-1);
-  border: 2px solid var(--roxo-1);
+  background-color: var(--roxo-3);
+  border: 2px solid white;
   border-radius: 50%;
   height: 50px;
   width: 50px;
-  color: var(--roxo-2);
+  color: var(--roxo-1);
   cursor: pointer;
   transition: all .5s ease-in-out;
 }

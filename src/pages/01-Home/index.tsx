@@ -1,6 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { Divider3 } from '../../components/Dividers/styles'
-import { GlobalStyles } from '../../styles/GlobalStyles'
 
 import { Banner } from './01-Banner'
 import { About } from './02-About'

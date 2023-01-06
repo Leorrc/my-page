@@ -7,13 +7,12 @@ import {
   DivText,
   LinkGit
 } from './styles'
-import { FaCaretRight } from 'react-icons/fa'
 
 export function Projects() {
   return (
     <>
       <ContainerSection id="IdProject">
-        <ContainerMaster>
+        <ContainerMaster data-aos="fade-right">
           <DivText>
             <h2>Projetos Recentes</h2>
             <p>
@@ -22,7 +21,7 @@ export function Projects() {
               das aplicações às quais dediquei meu tempo.
             </p>
           </DivText>
-          <Cards>
+          <Cards data-aos="slide-up">
             {cardProject.map(content => (
               <CardProjects
                 imgUrl={content.imgUrl}
@@ -34,10 +33,13 @@ export function Projects() {
           </Cards>
 
           <LinkGit>
-            {/* <FaCaretRight /> */}
             <p>
               Você pode conferir outros projetos que desenvolvi no meu{' '}
-              <a href="https://github.com/Leorrc" target="_blank">
+              <a
+                href="https://github.com/Leorrc"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Github!
               </a>
             </p>

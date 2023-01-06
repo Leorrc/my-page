@@ -1,4 +1,18 @@
-[
+[ {
+  "imgUrl": "projects/ju.png",
+  "name": "Site Design de Interiores",
+  "description": "Um site pessoal para divulgação de seu trabalho pessoal. Construída utilizando React.js, TypeScript e TailwindCSS",
+  "socialList": [
+    {
+      "network": "site",
+      "link": "https://www.dalcoldesign.com.br/"
+    },
+    {
+      "network": "git",
+      "link": "https://github.com/Leorrc/juliana-interior-designer"
+    }
+  ]
+},
   {
     "imgUrl": "projects/1.png",
     "name": "Site Institucional",
@@ -31,7 +45,7 @@
   },
   {
     "imgUrl": "projects/leo.png",
-    "name": "Meu site portfólio",
+    "name": "Meu site Portfólio",
     "description": "Um site pessoal para divulgação do meu trabalho pessoal. Criada utilizando React.js, TypeScript e Styled-Components",
     "socialList": [
       {
