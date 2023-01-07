@@ -92,6 +92,8 @@ export const Menu = styled.ul`
 
 export const Item = styled.li`
   text-align: center;
+  
+  
 `;
 
 export const ItemLink = styled(LinkS)`
@@ -101,6 +103,7 @@ export const ItemLink = styled(LinkS)`
   cursor: pointer;
   position: relative;
   transition: 0.1s;
+  
 
   &.active {
     border-bottom: 3px solid  ;
@@ -185,6 +188,7 @@ export const ItemScroll = styled.div`
   text-decoration: none;
   height: 100%;
   cursor: pointer;
+  
 
   &.active {
     border-bottom: 3px solid var(--base-color-alt) ;

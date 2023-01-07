@@ -25,7 +25,7 @@ export const Divider = styled.div`
   }
   @media ${device.laptop}{
     gap: 1rem;
-    grid-template-columns: repeat(8,minmax(0,1fr));
+    grid-template-columns: repeat(6,minmax(0,1fr));
   }
 `;
 

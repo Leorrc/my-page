@@ -29,22 +29,22 @@ export function NavBar({ toggle1 }: Props) {
           </MobileIcon>
 
           <Menu>
-            <ItemLink to="IdProject">
+            <ItemLink to="IdProject" offset={-72}>
               <Item>
                 <ItemScroll>Portfólio</ItemScroll>
               </Item>
             </ItemLink>
-            <ItemLink to="IdAbout">
+            <ItemLink to="IdAbout" offset={-72}>
               <Item>
                 <ItemScroll>Sobre mim</ItemScroll>
               </Item>
             </ItemLink>
-            <ItemLink to="IdSkill">
+            <ItemLink to="IdSkill" offset={-72}>
               <Item>
                 <ItemScroll>Habilidades</ItemScroll>
               </Item>
             </ItemLink>
-            <ItemLink to="IdContact">
+            <ItemLink to="IdContact" offset={-72}>
               <Item>
                 <ItemScroll>Contato</ItemScroll>
               </Item>
