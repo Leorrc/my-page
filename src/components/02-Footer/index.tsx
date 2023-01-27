@@ -56,7 +56,7 @@ export function Contact() {
                   <DivTextLink>
                     <strong>Linkedin</strong>
                     <a
-                      href="https://www.linkedin.com/in/leonardo-carvalho-756847239/"
+                      href="https://www.linkedin.com/in/leocarvalhodev"
                       target="_blank"
                       rel="noreferrer"
                     >
