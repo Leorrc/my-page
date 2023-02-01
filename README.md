@@ -10,6 +10,11 @@
 	<img alt="Logo" src="/src/assets/mock-leo.png" />
 </div>
 
+# 👨🏻‍💻 Autor
+
+- [Leonardo Carvalho](https://www.linkedin.com/in/leocarvalhodev/)
+<br />
+
 # 🚀 Technologies
 
 - [React.js](https://reactjs.org/)
