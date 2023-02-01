@@ -1,14 +1,17 @@
-<h1 align="center">
+<div align="center">
   <img src="./src/assets/leo1.png" width="200px"/>
-</h1>
+</div>
 
-# 👨🏻‍💻 Título do Projeto
+# 👨🏻‍💻 Portfólio
 
 - Um site feito em React para servir de portfólio e mostrar meus projetos que fiz até agora. Usei algumas tecnologias bem legais como o React.JS, TailwindCSS e ViteJS para o desenvolvimento rápido. Futuramente planejo colocar um seção de blog.
 
-<h1 align="center">
-	<img alt="Logo" src="/src/assets/mock-leo.png" />
-</h1>
+<br />
+<div align="center">
+	<img alt="Logo" src="./src/assets/mock-leo.png" />
+</div>
+
+<br />
 
 # 🚀 Technologies
 
@@ -22,3 +25,7 @@
 - [TypewriterJS v2](https://github.com/tameemsafi/typewriterjs/)
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
+
+---
+
+Made with 💜 &nbsp;by Leonardo Carvalho 👋 &nbsp;[See my linkedin](https://www.linkedin.com/in/leocarvalhodev/)
