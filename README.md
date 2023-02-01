@@ -22,3 +22,7 @@
 - [TypewriterJS v2](https://github.com/tameemsafi/typewriterjs/)
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
+
+---
+
+Made with 💜 &nbsp;by Leonardo Carvalho 👋 &nbsp;[See my linkedin](https://www.linkedin.com/in/leocarvalhodev/)
