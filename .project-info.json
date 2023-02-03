@@ -1,5 +1,49 @@
 {
+<<<<<<< HEAD
     "image": "https://raw.githubusercontent.com/leorrc/my-page/master/.github/screenshot-1.png",
     "name": "Portfólio",
     "description": "Um site feito em React para servir de portfolio e mostrar meus projetos que fiz até agora. Usei algumas tecnologias bem legais como o Chakra UI para o desenvolvimento rápido de telas. Futuramente planejo colocar um seção de blog."
 }
+=======
+    "name": "Portfolio",
+    "description": "Um site feito em React para servir de portfolio e mostrar meus projetos que fiz até agora. Usei algumas tecnologias bem legais como o Chakra UI para o desenvolvimento rápido de telas. Futuramente planejo colocar um seção de blog.",
+    "short_description": "Veja meus projetos",
+    "images": [
+        "https://raw.githubusercontent.com/leorrc/my-page/main/.github/leo1.jpg"
+    ],
+    "link_preview": "https://leocarvalhodev.com.br/",
+    "techs": [{
+            "name": "React.js",
+            "url": "https://reactjs.org/"
+        },
+        {
+            "name": "Typescript",
+            "url": "https://www.typescriptlang.org/"
+        },
+        {
+            "name": "Axios",
+            "url": "https://axios-http.com/"
+        },
+        {
+            "name": "Styled Components",
+            "url": "https://styled-components.com/"
+        },
+        {
+            "name": "Unform",
+            "url": "https://unform.dev/"
+        },
+        {
+            "name": "date-fns",
+            "url": "https://date-fns.org/"
+        },
+        {
+            "name": "Eslint",
+            "url": "https://eslint.org/"
+        },
+        {
+            "name": "Prettier",
+            "url": "https://prettier.io/"
+        }
+    ]
+}
+>>>>>>> 8ec7656823b261dc32b1a29b42bc06940e6d83cd
