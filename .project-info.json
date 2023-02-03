@@ -3,7 +3,7 @@
     "description": "Um site feito em React para servir de portfolio e mostrar meus projetos que fiz até agora. Usei algumas tecnologias bem legais como o Chakra UI para o desenvolvimento rápido de telas. Futuramente planejo colocar um seção de blog.",
     "short_description": "Veja meus projetos",
     "images": [
-        "https://raw.githubusercontent.com/saymondamasio/my-page/main/.github/leo1.jpg"
+        "https://raw.githubusercontent.com/leorrc/my-page/main/.github/leo1.jpg"
     ],
     "link_preview": "https://leocarvalhodev.com.br/",
     "techs": [{
