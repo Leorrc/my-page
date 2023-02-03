@@ -7,9 +7,15 @@
 - Um site feito em React para servir de portfólio e mostrar meus projetos que fiz até agora. Usei algumas tecnologias bem legais como o React.JS, TailwindCSS e ViteJS para o desenvolvimento rápido. Futuramente planejo colocar um seção de blog.
 
 <br />
+
 <div align="center">
 	<img alt="Logo" src="./src/assets/mock-leo.png" />
 </div>
+<br />
+
+# 👨🏻‍💻 Autor
+
+- [Leonardo Carvalho](https://www.linkedin.com/in/leocarvalhodev/)
 
 <br />
 
